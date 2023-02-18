@@ -1,5 +1,7 @@
 require ( './helpers.js' );
 
+require ( '../index.js');
+
 describe('index.js', function () {
   describe('cats', function () {
     it('is assigned an initial value of ["Milo", "Otis", "Garfield"]', function () {
